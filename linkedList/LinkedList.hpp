@@ -32,7 +32,7 @@ int LinkedList<T>::size() const
 	Node<T>* temp = m_front;
 	int size = 0;
 
-	while (m_front != nullptr)
+	while (temp != nullptr)
 	{
 		temp = temp->getNext();
 		size++;
