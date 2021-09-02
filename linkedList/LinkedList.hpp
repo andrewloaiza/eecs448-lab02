@@ -113,7 +113,7 @@ template <typename T>
 bool LinkedList<T>::removeBack()
 {
 	Node<T>* lastNode = nullptr;
-	Node<T>* secondintoLast = nullptr;
+	Node<T>* secondToLast = nullptr;
 	bool isRemoved = false;
 
 	/** TODO
